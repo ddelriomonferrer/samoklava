@@ -81,12 +81,6 @@ points:
             splay: -15
             origin: [-0.5 kx, -0.5 ky]
             column_net: col_index
-        far:
-          key:
-            spread: kx
-            splay: -15
-            origin: [-0.5 kx, -0.5 ky]
-            column_net: col_inner
       rows:
         thumb:
           row_net: row_thumb
