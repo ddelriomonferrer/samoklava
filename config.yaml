@@ -173,12 +173,6 @@ outlines:
         - ref: matrix_index_bottom
           shift: [0, -1.06 ky]
       radius: 1.05
-    thumb:
-      what: circle
-      where:
-        - ref: thumbfan_far_thumb
-          shift: [-0.55 kx, 0]
-      radius: 1.05
   mounting_holes:
     $extends: outlines.screw_holes
     top_left:
