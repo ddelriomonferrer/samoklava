@@ -81,12 +81,6 @@ points:
             splay: -15
             origin: [-0.5 kx, -0.5 ky]
             column_net: col_index
-        far:
-          key:
-            spread: kx
-            splay: -15
-            origin: [-0.5 kx, -0.5 ky]
-            column_net: col_inner
       rows:
         thumb:
           row_net: row_thumb
@@ -103,9 +97,9 @@ outlines:
       points:
         - ref: matrix_inner_bottom
           shift: [0.5 kx + 0.5px, -0.5 ky + 0.5 py]
-        - ref: thumbfan_far_thumb
+        - ref: thumbfan_home_thumb
           shift: [0.5 kx - 0.5px, 0.5 ky + 0.5 py]
-        - ref: thumbfan_far_thumb
+        - ref: thumbfan_home_thumb
           shift: [0.5 kx - 0.5px, -0.5 ky - 0.5 py]
         - ref: thumbfan_near_thumb
           shift: [-0.5 kx + 0.5 px, -0.5 ky - 0.5 py]
@@ -186,7 +180,7 @@ outlines:
     thumb:
       what: circle
       where:
-        - ref: thumbfan_far_thumb
+        - ref: thumbfan_home_thumb
           shift: [-0.55 kx, 0]
       radius: 1.05
   mounting_holes:
